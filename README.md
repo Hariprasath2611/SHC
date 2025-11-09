@@ -1,9 +1,4 @@
-Absolutely bro 💪 — here’s a **professional, clean, GitHub-ready `README.md`** for your **SuiCare** project.
-It’s written in a way that hackathon judges, devs, or recruiters will love — clean formatting, badges, setup instructions, and clear explanations.
-
----
-
-# 🩺 SuiCare — Decentralized Healthcare Data Exchange
+🩺 SuiCare — Decentralized Healthcare Data Exchange
 
 ![SuiCare Banner](https://raw.githubusercontent.com/yourusername/suicare-frontend/main/cover.png)
 *(Optional: replace with your actual project image or app screenshot)*
@@ -11,9 +6,7 @@ It’s written in a way that hackathon judges, devs, or recruiters will love —
 > ⚡ **Empowering patients with digital ownership of their medical data using Sui Blockchain and Walrus storage.**
 > SuiCare allows patients to mint encrypted health records as **Data NFTs**, securely share them with hospitals or AI researchers, and earn rewards through a privacy-preserving marketplace.
 
----
-
-## 🚀 Features
+🚀 Features
 
 * 🧠 **Data Ownership NFTs:** Each medical record (lab report, imaging, prescription) is minted as a user-owned NFT.
 * 🔒 **Client-side Encryption:** Files are encrypted before upload using AES-GCM for complete data privacy.
@@ -22,9 +15,7 @@ It’s written in a way that hackathon judges, devs, or recruiters will love —
 * 💡 **Zero-Knowledge Proof-ready:** Future support for ZK-based consent and privacy validation.
 * 🧬 **AI Insights Layer (Planned):** Allow researchers to analyze anonymized datasets ethically.
 
----
-
-## 🧱 Tech Stack
+ 🧱 Tech Stack
 
 | Layer                  | Technology                                                             |
 | :--------------------- | :--------------------------------------------------------------------- |
@@ -35,11 +26,9 @@ It’s written in a way that hackathon judges, devs, or recruiters will love —
 | **Encryption**         | WebCrypto (AES-GCM + SHA-256)                                          |
 | **AI Layer (Future)**  | TensorFlow / HuggingFace for data insights                             |
 
----
+🧩 Architecture
 
-## 🧩 Architecture
 
-```
 ┌──────────────────────────┐
 │  Frontend (React + TS)  │
 │  ─ Wallet Connection     │
@@ -61,54 +50,9 @@ It’s written in a way that hackathon judges, devs, or recruiters will love —
 │     Walrus / IPFS       │
 │   Decentralized Storage  │
 └──────────────────────────┘
-```
 
----
 
-## ⚙️ Setup & Installation
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/suicare-frontend.git
-cd suicare-frontend
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Set Up Environment Variables
-
-Create a `.env` file in your project root:
-
-```env
-VITE_NFT_STORAGE_KEY=eyJhbGciOi...your_api_key_here...
-```
-
-You can get your API key for free at [nft.storage](https://nft.storage/).
-
-### 4️⃣ Configure Your Sui Package
-
-In `src/lib/sui.ts`, replace:
-
-```ts
-export const PACKAGE_ID = "0x<YOUR_DEPLOYED_PACKAGE_ID>";
-```
-
-with your actual Move package ID (from your published Sui contract).
-
-### 5️⃣ Run the App
-
-```bash
-npm run dev
-```
-
-Then open [http://localhost:5173](http://localhost:5173) 🌐
-
----
 
 ## 🧰 Folder Structure
 
@@ -170,32 +114,26 @@ public fun mint(
 
 See full Move contract under `/contracts/sources/HealthNFT.move`.
 
----
+
 
 ## 👨‍💻 Author
 
 **Hari Prasath D**
 🧑‍💻 Full Stack Developer | Blockchain & Web3 Enthusiast
-🌐 [GitHub](https://github.com/yourusername)
-✉️ [hari@example.com](mailto:hari@example.com)
+🌐 [GitHub](https://github.com/Hariprasath2611)
+✉️ [hp5173690@gmail.com](mailto:hp5173690@gmail.com)
 
----
+
 
 ## 🪙 License
 
 This project is licensed under the **MIT License**.
 See [LICENSE](LICENSE) for details.
 
----
+
 
 ## 💬 Acknowledgements
 
 * [Mysten Labs](https://mystenlabs.com/) for Sui Blockchain
 * [NFT.Storage](https://nft.storage/) for decentralized storage
 * [Vite](https://vitejs.dev/) + [React](https://react.dev/) for lightning-fast frontend
-
----
-
-Would you like me to include **badges** (like npm, license, tech stack logos, testnet explorer link)
-and format this README with a **GitHub banner style (dark header + emojis + shields.io)**?
-I can make it look like a top-tier hackathon submission.
